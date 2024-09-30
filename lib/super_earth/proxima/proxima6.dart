@@ -4,6 +4,7 @@ import 'package:exofun/super_earth/components/text_box_1.dart';
 import 'package:exofun/super_earth/components/title_container.dart';
 import 'package:exofun/super_earth/introduction/intro1.dart';
 import 'package:exofun/super_earth/proxima/proxima601.dart';
+import 'package:exofun/super_earth/proxima/proxima901.dart';
 import 'package:flutter/material.dart';
 
 class Proxima6 extends StatelessWidget {
@@ -60,7 +61,7 @@ class Proxima6 extends StatelessWidget {
                           Button2(
                             text: 'Telescope',
                             image: 'assets/Telescope.png',
-                            onClick: Intro1(),
+                            onClick: Proxima901(),
                           ),
                           Button2(
                             text: '3d Models',
