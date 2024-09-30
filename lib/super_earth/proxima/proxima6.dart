@@ -3,6 +3,7 @@ import 'package:exofun/super_earth/components/button2.dart';
 import 'package:exofun/super_earth/components/text_box_1.dart';
 import 'package:exofun/super_earth/components/title_container.dart';
 import 'package:exofun/super_earth/introduction/intro1.dart';
+import 'package:exofun/super_earth/proxima/proxima601.dart';
 import 'package:flutter/material.dart';
 
 class Proxima6 extends StatelessWidget {
@@ -44,7 +45,7 @@ class Proxima6 extends StatelessWidget {
                           Button2(
                             text: 'Scenarios',
                             image: 'assets/scenarios.png',
-                            onClick: Intro1(),
+                            onClick: Proxima601(),
                           ),
                           Button2(
                             text: 'Method',
