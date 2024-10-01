@@ -80,7 +80,7 @@ class Proxima902 extends StatelessWidget {
                     SizedBox(width: 20),
                     Expanded(
                       child: LinearProgressIndicator(
-                        value: 0.5,
+                        value: 1,
                         backgroundColor: Colors.grey[300],
                         valueColor: AlwaysStoppedAnimation<Color>(Colors.blue),
                         minHeight: 10,
