@@ -1,9 +1,11 @@
+import 'package:exofun/levels_page.dart';
 import 'package:exofun/super_earth/components/button1.dart';
 import 'package:exofun/super_earth/components/button2.dart';
 import 'package:exofun/super_earth/components/text_box_1.dart';
 import 'package:exofun/super_earth/components/title_container.dart';
 import 'package:exofun/super_earth/introduction/intro1.dart';
 import 'package:exofun/super_earth/proxima/proxima601.dart';
+import 'package:exofun/super_earth/proxima/proxima701.dart';
 import 'package:exofun/super_earth/proxima/proxima901.dart';
 import 'package:flutter/material.dart';
 
@@ -56,7 +58,7 @@ class Proxima6 extends StatelessWidget {
                           Button2(
                             text: 'Comparison',
                             image: 'assets/comparisons.png',
-                            onClick: Intro1(),
+                            onClick: Proxima701(),
                           ),
                           Button2(
                             text: 'Telescope',
@@ -93,7 +95,7 @@ class Proxima6 extends StatelessWidget {
                     ),
                     Expanded(
                       child: LinearProgressIndicator(
-                        value: 0.5,
+                        value: 1,
                         backgroundColor: Colors.grey[300],
                         valueColor: AlwaysStoppedAnimation<Color>(Colors.blue),
                         minHeight: 10,
@@ -102,9 +104,13 @@ class Proxima6 extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 20.0),
                       child: InkWell(
-                        child: Button1(text: 'Next'),
+                        child: Button1(text: 'Finish'),
                         onTap: () {
-                          Navigator.pop(context);
+                          Navigator.push(context, MaterialPageRoute(
+                            builder: (context) {
+                              return LevelsPage();
+                            },
+                          ));
                         },
                       ),
                     ),

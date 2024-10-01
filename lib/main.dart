@@ -4,8 +4,12 @@ import 'package:exofun/levels_page.dart';
 import 'package:exofun/super_earth/components/button1.dart';
 import 'package:exofun/super_earth/components/template1.dart';
 import 'package:exofun/super_earth/components/template2.dart';
+import 'package:exofun/super_earth/components/template3.dart';
 import 'package:exofun/super_earth/introduction/intro1.dart';
+import 'package:exofun/super_earth/keplar/keplar1.dart';
 import 'package:exofun/super_earth/proxima/proxima1.dart';
+import 'package:exofun/super_earth/proxima/proxima6.dart';
+import 'package:exofun/super_earth/proxima/proxima701.dart';
 import 'package:exofun/welcome/hello.dart';
 import 'package:exofun/welcome/login_page.dart';
 import 'package:exofun/welcome/welcome.dart';
@@ -53,10 +57,10 @@ class MyApp extends StatelessWidget {
         //primarySwatch: Colors.blue,
         useMaterial3: false,
       ),
-      //home: LevelsPage(),
+      home: Keplar1(),
       //home: Welcome(),
 
-      home: Proxima1(),
+      //home: Proxima1(),
       //home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }

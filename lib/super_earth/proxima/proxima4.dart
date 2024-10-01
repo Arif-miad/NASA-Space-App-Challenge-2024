@@ -9,6 +9,9 @@ class Proxima4 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Template2(
+      title: 'Proxima Centauri b',
+      currentPage: 4,
+      totalPages: 6,
       nextWidget: Proxima5(),
       child: Center(
         child: Column(
@@ -18,7 +21,7 @@ class Proxima4 extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Image.asset(
-                  'assets/proxima.png',
+                  'assets/keplar.png',
                   scale: 1.7,
                 ),
                 TextBox2(

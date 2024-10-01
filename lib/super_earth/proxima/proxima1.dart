@@ -9,6 +9,9 @@ class Proxima1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Template2(
+      title: 'Proxima Centauri b',
+      currentPage: 1,
+      totalPages: 6,
       nextWidget: Proxima2(),
       child: Center(
         child: Row(
