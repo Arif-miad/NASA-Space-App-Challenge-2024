@@ -9,6 +9,7 @@ class Proxima3 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Template2(
+      bgImage: 'assets/image3.png',
       title: 'Proxima Centauri b',
       currentPage: 3,
       totalPages: 6,
