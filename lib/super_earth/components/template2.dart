@@ -3,12 +3,18 @@ import 'package:exofun/super_earth/components/title_container.dart';
 import 'package:flutter/material.dart';
 
 class Template2 extends StatelessWidget {
+  final String title;
   final Widget child;
   final Widget nextWidget;
+  final double currentPage;
+  final double totalPages;
   const Template2({
     super.key,
     required this.child,
     required this.nextWidget,
+    required this.currentPage,
+    required this.totalPages,
+    required this.title,
   });
 
   @override
@@ -26,7 +32,7 @@ class Template2 extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              TitleContainer(text: 'Proxima Centauri b'),
+              TitleContainer(text: title),
               Container(
                 height: 250,
                 width: 800,
@@ -50,7 +56,7 @@ class Template2 extends StatelessWidget {
                     SizedBox(width: 20),
                     Expanded(
                       child: LinearProgressIndicator(
-                        value: 0.5,
+                        value: currentPage / totalPages,
                         backgroundColor: Colors.grey[300],
                         valueColor: AlwaysStoppedAnimation<Color>(Colors.blue),
                         minHeight: 10,
