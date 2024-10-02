@@ -5,8 +5,8 @@ import 'package:exofun/super_earth/components/text_box_1.dart';
 import 'package:exofun/super_earth/components/title_container.dart';
 import 'package:exofun/super_earth/introduction/intro1.dart';
 import 'package:exofun/super_earth/keplar/keplar11.dart';
-import 'package:exofun/super_earth/proxima/proxima601.dart';
-import 'package:exofun/super_earth/proxima/proxima901.dart';
+import 'package:exofun/super_earth/keplar/keplar1201.dart';
+import 'package:exofun/super_earth/keplar/keplar901.dart';
 import 'package:flutter/material.dart';
 
 class Keplar8 extends StatelessWidget {
@@ -31,7 +31,6 @@ class Keplar8 extends StatelessWidget {
                 child: TitleContainer(text: 'Kepler 452 b'),
               ),
               SizedBox(
-                //color: Colors.amber,
                 height: 250,
                 width: 800,
                 child: Center(
@@ -50,7 +49,7 @@ class Keplar8 extends StatelessWidget {
                           Button2(
                             text: 'Scenarios',
                             image: 'assets/scenarios.png',
-                            onClick: Proxima601(),
+                            onClick: Keplar901(),
                           ),
                           Button2(
                             text: 'Method',
@@ -65,10 +64,10 @@ class Keplar8 extends StatelessWidget {
                           Button2(
                             text: 'Telescope',
                             image: 'assets/Telescope.png',
-                            onClick: Proxima901(),
+                            onClick: Keplar1201(),
                           ),
                           Button2(
-                            text: '3d Models',
+                            text: '3D Models',
                             image: 'assets/3d.png',
                             onClick: Intro1(),
                           ),
@@ -92,6 +91,11 @@ class Keplar8 extends StatelessWidget {
                         child: Button1(text: 'Back'),
                         onTap: () {
                           Navigator.pop(context);
+                          // Navigator.push(context, MaterialPageRoute(
+                          //   builder: (context) {
+                          //     return Keplar7();
+                          //   },
+                          // ));
                         },
                       ),
                     ),

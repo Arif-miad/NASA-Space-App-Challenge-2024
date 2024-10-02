@@ -9,6 +9,7 @@ class Keplar5 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Template2(
+      bgImage: 'assets/keplar_bg.png',
       title: 'Kepler 452 b',
       currentPage: 5,
       totalPages: 8,

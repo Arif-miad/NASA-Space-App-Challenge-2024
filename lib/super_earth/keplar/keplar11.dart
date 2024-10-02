@@ -46,7 +46,7 @@ class Keplar11 extends StatelessWidget {
     ];
     return Template3(
       data: data,
-      backgroundImage: 'assets/image3.png',
+      backgroundImage: 'assets/keplar_bg.png',
       planetImage: 'assets/keplar.png',
       planetImageScale: 1.5,
     );
