@@ -1,8 +1,4 @@
-import 'package:exofun/levels_page.dart';
-import 'package:exofun/super_earth/components/template1.dart';
-import 'package:exofun/super_earth/components/template4.dart';
 import 'package:exofun/super_earth/components/template5.dart';
-import 'package:exofun/super_earth/introduction/intro18.dart';
 import 'package:flutter/material.dart';
 
 class Intro21 extends StatelessWidget {

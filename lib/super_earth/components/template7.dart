@@ -1,6 +1,5 @@
 import 'package:exofun/super_earth/components/button1.dart';
 import 'package:exofun/super_earth/components/title_container.dart';
-import 'package:exofun/super_earth/introduction/intro23.dart';
 import 'package:flutter/material.dart';
 import 'package:gif_view/gif_view.dart';
 import 'package:google_fonts/google_fonts.dart';

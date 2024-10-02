@@ -66,11 +66,6 @@ class Keplar8 extends StatelessWidget {
                             image: 'assets/Telescope.png',
                             onClick: Keplar1201(),
                           ),
-                          Button2(
-                            text: '3D Models',
-                            image: 'assets/3d.png',
-                            onClick: Intro1(),
-                          ),
                         ],
                       ),
                     ],

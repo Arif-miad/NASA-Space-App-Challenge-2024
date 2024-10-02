@@ -1,5 +1,4 @@
 import 'package:exofun/super_earth/components/template1.dart';
-import 'package:exofun/super_earth/introduction/intro17.dart';
 import 'package:exofun/super_earth/introduction/intro18.dart';
 import 'package:flutter/material.dart';
 
