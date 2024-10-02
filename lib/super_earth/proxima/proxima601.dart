@@ -116,7 +116,7 @@ class _Proxima601State extends State<Proxima601> {
                             color: Colors.white,
                           ),
                           textAlign: TextAlign.center,
-                          maxLines: 5,
+                          maxLines: 7,
                           overflow: TextOverflow.ellipsis,
                           softWrap: true,
                         ),
