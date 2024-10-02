@@ -15,7 +15,7 @@ class Intro2 extends StatelessWidget {
             'Super-Earths are exoplanets larger than Earth but smaller than Neptune, with masses up to 10 times that of Earth. They can be made of gas, rock, or a mix of both, and aren\'t necessarily similar to Earth.',
         image: 'assets/intro2.png',
         serialNum: 2,
-        totalPages: 17,
+        totalPages: 19,
         nextWidget: Intro3(),
       ),
     );

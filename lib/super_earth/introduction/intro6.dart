@@ -15,7 +15,7 @@ class Intro6 extends StatelessWidget {
             'Kepler-22b is a super-Earth that could be covered in a super ocean.',
         image: 'assets/intro6.png',
         serialNum: 6,
-        totalPages: 17,
+        totalPages: 19,
         nextWidget: Intro7(),
       ),
     );

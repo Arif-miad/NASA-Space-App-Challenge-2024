@@ -15,7 +15,7 @@ class Intro5 extends StatelessWidget {
             'Kepler-452b was the first Earth-size planet discovered around a near solar twin.',
         image: 'assets/intro5.png',
         serialNum: 5,
-        totalPages: 17,
+        totalPages: 19,
         nextWidget: Intro6(),
       ),
     );

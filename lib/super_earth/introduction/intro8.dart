@@ -15,7 +15,7 @@ class Intro8 extends StatelessWidget {
             'A dim, frozen super-Earth orbits a fast-moving star just 6 light-years away.',
         image: 'assets/intro8.png',
         serialNum: 8,
-        totalPages: 17,
+        totalPages: 19,
         nextWidget: Intro9(),
       ),
     );

@@ -15,7 +15,7 @@ class Intro4 extends StatelessWidget {
             'There\'s a super-Earth exoplanet with temperatures hot enough to vaporize metal.',
         image: 'assets/intro4.png',
         serialNum: 4,
-        totalPages: 17,
+        totalPages: 19,
         nextWidget: Intro5(),
       ),
     );

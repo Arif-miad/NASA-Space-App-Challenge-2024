@@ -15,7 +15,7 @@ class Intro7 extends StatelessWidget {
             'A super-Earth planet could be hiding at the edge of our own solar system.',
         image: 'assets/intro7.png',
         serialNum: 7,
-        totalPages: 17,
+        totalPages: 19,
         nextWidget: Intro8(),
       ),
     );

@@ -15,7 +15,7 @@ class Intro9 extends StatelessWidget {
             'Let\'s dive into two more important topics about Super Earths. Let\'s go!',
         image: 'assets/intro1.png',
         serialNum: 9,
-        totalPages: 17,
+        totalPages: 19,
         nextWidget: Intro10(),
       ),
     );
