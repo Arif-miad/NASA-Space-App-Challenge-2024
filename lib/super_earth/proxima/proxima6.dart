@@ -66,7 +66,7 @@ class Proxima6 extends StatelessWidget {
                             onClick: Proxima901(),
                           ),
                           Button2(
-                            text: '3d Models',
+                            text: '3D Models',
                             image: 'assets/3d.png',
                             onClick: Intro1(),
                           ),
