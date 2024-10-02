@@ -15,7 +15,7 @@ class Intro13 extends StatelessWidget {
             'This infographic illustrates key features of the TOI 270 system, located about 73 light-years away in the southern constellation Pictor.',
         image: 'assets/intro13.png',
         serialNum: 13,
-        totalPages: 17,
+        totalPages: 19,
         nextWidget: Intro14(),
       ),
     );

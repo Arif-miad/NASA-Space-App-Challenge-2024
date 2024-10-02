@@ -15,7 +15,7 @@ class Intro12 extends StatelessWidget {
             'is 25% larger than Earth and orbits every 3.4 days.The mini-Neptunes, TOI 270 c and d, are 2.4 and 2.1 times larger, orbiting every 5.7 and 11.4 days. TOI 270 d may have a rocky core but is too warm for liquid water.',
         image: 'assets/intro12.png',
         serialNum: 12,
-        totalPages: 17,
+        totalPages: 19,
         nextWidget: Intro13(),
       ),
     );

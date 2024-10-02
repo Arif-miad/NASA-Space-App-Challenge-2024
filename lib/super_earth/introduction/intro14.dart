@@ -14,7 +14,7 @@ class Intro14 extends StatelessWidget {
         text: '',
         image: 'assets/intro10.png',
         serialNum: 14,
-        totalPages: 17,
+        totalPages: 19,
         nextWidget: Intro15(),
       ),
     );

@@ -15,7 +15,7 @@ class Intro11 extends StatelessWidget {
             'In 2019, NASA’s TESS discovered a super-Earth and two mini-Neptune\'s orbiting the dwarf star TOI 270, 73 light-years away. The star is 40% smaller and cooler than the Sun. ',
         image: 'assets/intro11.png',
         serialNum: 11,
-        totalPages: 17,
+        totalPages: 19,
         nextWidget: Intro12(),
       ),
     );
