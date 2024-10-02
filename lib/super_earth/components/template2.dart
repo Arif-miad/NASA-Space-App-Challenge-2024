@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 
 class Template2 extends StatelessWidget {
   final String title;
+  final String bgImage;
   final Widget child;
   final Widget nextWidget;
   final double currentPage;
@@ -15,6 +16,7 @@ class Template2 extends StatelessWidget {
     required this.currentPage,
     required this.totalPages,
     required this.title,
+    required this.bgImage,
   });
 
   @override
@@ -23,7 +25,7 @@ class Template2 extends StatelessWidget {
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/image3.png'),
+            image: AssetImage(bgImage),
             fit: BoxFit.cover,
           ),
         ),

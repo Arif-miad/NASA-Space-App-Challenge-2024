@@ -3,20 +3,16 @@ import 'package:exofun/super_earth/components/title_container.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class Template1 extends StatelessWidget {
+class Template4 extends StatelessWidget {
   final int serialNum;
   final int totalPages;
-  final String serial;
-  final String title;
   final String customTitleText;
   final String text;
   final String image;
   final Widget nextWidget;
 
-  const Template1(
+  const Template4(
       {super.key,
-      required this.serial,
-      required this.title,
       required this.text,
       required this.image,
       required this.serialNum,
@@ -66,18 +62,24 @@ class Template1 extends StatelessWidget {
                             colors: [
                               Color(0x00000000),
                               Color(0xFF24CACA),
+                              // Transparent color
+                              // #24CACA color
                             ],
-                            stops: [0.0214, 0.958],
+                            stops: [
+                              0.0214,
+                              0.958
+                            ], // Matching the gradient stops in your CSS
                           ),
-                          color: Color(0xFF091522),
+                          color: Color(0xFF091522), // Background color #091522
                           boxShadow: [
                             BoxShadow(
                               color: Colors.black,
-                              offset: Offset(0, -4),
-                              blurRadius: 16,
+                              offset: Offset(0, -4), // Shadow offset
+                              blurRadius: 16, // Shadow blur radius
                             ),
                           ],
-                          borderRadius: BorderRadius.circular(15),
+                          borderRadius: BorderRadius.circular(
+                              15), // Circular border radius
                         ),
                         child: Center(
                           child: Padding(
@@ -86,40 +88,18 @@ class Template1 extends StatelessWidget {
                               top: 8,
                               right: 16,
                             ),
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                Text(
-                                  serial,
-                                  style: GoogleFonts.istokWeb(
-                                    fontSize: 29,
-                                    color: Colors.amber,
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                                  maxLines: 8,
-                                  overflow: TextOverflow.ellipsis,
-                                  softWrap: true,
-                                ),
-                                Text(
-                                  title,
-                                  style: GoogleFonts.istokWeb(
-                                    fontSize: 29,
-                                    color: Colors.white,
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                                  maxLines: 8,
-                                  overflow: TextOverflow.ellipsis,
-                                  softWrap: true,
-                                ),
-                                Text(
-                                  text,
-                                  style: GoogleFonts.istokWeb(
-                                      fontSize: 18, color: Colors.white),
-                                  maxLines: 8,
-                                  overflow: TextOverflow.ellipsis,
-                                  softWrap: true,
-                                ),
-                              ],
+                            child: Center(
+                              child: Text(
+                                text,
+                                style: GoogleFonts.istokWeb(
+                                    fontSize: 18, color: Colors.white),
+                                maxLines:
+                                    8, // You can specify the number of lines
+                                overflow: TextOverflow
+                                    .ellipsis, // Handle overflow with ellipsis
+                                softWrap:
+                                    true, // Allow soft wrapping (break lines naturally)
+                              ),
                             ),
                           ),
                         ),

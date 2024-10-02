@@ -2,7 +2,6 @@ import 'package:exofun/super_earth/components/button1.dart';
 import 'package:exofun/super_earth/components/button3.dart';
 import 'package:exofun/super_earth/components/container1.dart';
 import 'package:exofun/super_earth/components/text_box_3.dart';
-import 'package:exofun/super_earth/components/title_container.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -221,7 +220,6 @@ class _Template3State extends State<Template3> {
         ),
       ),
     );
-    ;
   }
 }
 
