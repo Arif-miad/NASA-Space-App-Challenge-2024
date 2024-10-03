@@ -50,8 +50,8 @@ class _Proxima601State extends State<Proxima601> {
                       padding: const EdgeInsets.only(top: 50.0, left: 30),
                       child: Container(
                         color: Colors.green.withOpacity(0),
-                        height: 150,
-                        width: 150,
+                        height: 135,
+                        width: 135,
                       ),
                     ),
                   ),
@@ -66,16 +66,19 @@ class _Proxima601State extends State<Proxima601> {
                       padding: const EdgeInsets.only(top: 15.0, left: 50),
                       child: Container(
                         color: Colors.amber.withOpacity(0),
-                        height: 150,
-                        width: 500,
+                        height: 135,
+                        width: 460,
                       ),
                     ),
                   ),
-                  InkWell(
-                    child: Button1(text: 'Nasa Data'),
-                    onTap: () {
-                      _launchURL(_url);
-                    },
+                  Padding(
+                    padding: const EdgeInsets.only(right: 10.0),
+                    child: InkWell(
+                      child: Button1(text: 'Nasa Data'),
+                      onTap: () {
+                        _launchURL(_url);
+                      },
+                    ),
                   ),
                 ],
               ),
@@ -134,18 +137,21 @@ class _Proxima601State extends State<Proxima601> {
                       padding: const EdgeInsets.only(left: 20.0),
                       child: Container(
                         color: Colors.cyan.withOpacity(0),
-                        height: 150,
-                        width: 300,
+                        height: 125,
+                        width: 270,
                       ),
                     ),
                   ),
                 ],
               ),
-              InkWell(
-                child: Button1(text: 'Back'),
-                onTap: () {
-                  Navigator.pop(context);
-                },
+              Padding(
+                padding: const EdgeInsets.symmetric(vertical: 10.0),
+                child: InkWell(
+                  child: Button1(text: 'Back'),
+                  onTap: () {
+                    Navigator.pop(context);
+                  },
+                ),
               ),
             ],
           ),

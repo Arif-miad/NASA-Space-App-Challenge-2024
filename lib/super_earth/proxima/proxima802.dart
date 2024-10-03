@@ -7,15 +7,13 @@ class Proxima802 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Template9(
-        nextPage: Proxima6(),
-        bgImage: 'assets/image3.png',
-        customTitleText: 'Proxima Centauri b',
-        text:
-            'To detect Proxima Centauri b, astronomers observe the star\'s slight wobble as it orbits a common center of mass with the planet. Using spectroscopy, they detect shifts in the star’s light: blueshift when it moves toward us and redshift when it moves away, revealing Proxima b\'s presence.',
-        gif: 'assets/method1.gif',
-      ),
+    return Template9(
+      nextPage: Proxima6(),
+      bgImage: 'assets/image3.png',
+      customTitleText: 'Proxima Centauri b',
+      text:
+          'To detect Proxima Centauri b, astronomers observe the star\'s slight wobble as it orbits a common center of mass with the planet. Using spectroscopy, they detect shifts in the star’s light: blueshift when it moves toward us and redshift when it moves away, revealing Proxima b\'s presence.',
+      gif: 'assets/rdv.gif',
     );
   }
 }

@@ -1,8 +1,8 @@
-import 'package:exofun/levels_page.dart';
 import 'package:exofun/super_earth/components/button1.dart';
 import 'package:exofun/super_earth/components/button2.dart';
 import 'package:exofun/super_earth/components/text_box_1.dart';
 import 'package:exofun/super_earth/components/title_container.dart';
+import 'package:exofun/super_earth/map.dart';
 import 'package:exofun/super_earth/proxima/proxima601.dart';
 import 'package:exofun/super_earth/proxima/proxima701.dart';
 import 'package:exofun/super_earth/proxima/proxima801.dart';
@@ -43,7 +43,7 @@ class Proxima6 extends StatelessWidget {
                       ),
                       Image.asset('assets/proxima.png'),
                       Column(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        mainAxisAlignment: MainAxisAlignment.spaceAround,
                         children: [
                           Button2(
                             text: 'Scenarios',
@@ -105,7 +105,7 @@ class Proxima6 extends StatelessWidget {
                             context,
                             MaterialPageRoute(
                               builder: (context) {
-                                return LevelsPage();
+                                return LevelMap();
                               },
                             ),
                             (Route<dynamic> route) => false,
