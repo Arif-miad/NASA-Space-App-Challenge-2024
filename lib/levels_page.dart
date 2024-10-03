@@ -1,5 +1,4 @@
 import 'package:exofun/exoplanet/exo1.dart';
-import 'package:exofun/super_earth/introduction/intro1.dart';
 import 'package:exofun/super_earth/map.dart';
 import 'package:flutter/material.dart';
 
@@ -120,6 +119,8 @@ class LevelsPage extends StatelessWidget {
       ),
     ),
   ];
+
+  LevelsPage({super.key});
 
   @override
   Widget build(BuildContext context) {
