@@ -1,4 +1,3 @@
-import 'package:exofun/levels_page.dart';
 import 'package:exofun/super_earth/components/button1.dart';
 import 'package:exofun/super_earth/components/button2.dart';
 import 'package:exofun/super_earth/components/text_box_1.dart';
