@@ -3,9 +3,9 @@ import 'package:exofun/super_earth/components/button1.dart';
 import 'package:exofun/super_earth/components/button2.dart';
 import 'package:exofun/super_earth/components/text_box_1.dart';
 import 'package:exofun/super_earth/components/title_container.dart';
-import 'package:exofun/super_earth/introduction/intro1.dart';
 import 'package:exofun/super_earth/proxima/proxima601.dart';
 import 'package:exofun/super_earth/proxima/proxima701.dart';
+import 'package:exofun/super_earth/proxima/proxima801.dart';
 import 'package:exofun/super_earth/proxima/proxima901.dart';
 import 'package:flutter/material.dart';
 
@@ -53,7 +53,7 @@ class Proxima6 extends StatelessWidget {
                           Button2(
                             text: 'Method',
                             image: 'assets/method.png',
-                            onClick: Intro1(),
+                            onClick: Proxima801(),
                           ),
                           Button2(
                             text: 'Comparison',
@@ -64,11 +64,6 @@ class Proxima6 extends StatelessWidget {
                             text: 'Telescope',
                             image: 'assets/Telescope.png',
                             onClick: Proxima901(),
-                          ),
-                          Button2(
-                            text: '3D Models',
-                            image: 'assets/3d.png',
-                            onClick: Intro1(),
                           ),
                         ],
                       ),

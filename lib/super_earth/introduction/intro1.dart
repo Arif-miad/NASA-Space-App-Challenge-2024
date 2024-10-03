@@ -7,16 +7,14 @@ class Intro1 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Template1(
-        serial: '',
-        title: 'What is a Super Earth?',
-        text: 'Let\'s find out.',
-        image: 'assets/intro1.png',
-        serialNum: 1,
-        totalPages: 19,
-        nextWidget: Intro2(),
-      ),
+    return Template1(
+      serial: '',
+      title: 'What is a Super Earth?',
+      text: 'Let\'s find out.',
+      image: 'assets/intro1.png',
+      serialNum: 1,
+      totalPages: 19,
+      nextWidget: Intro2(),
     );
   }
 }

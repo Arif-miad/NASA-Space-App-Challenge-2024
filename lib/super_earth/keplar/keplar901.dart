@@ -7,12 +7,13 @@ class Keplar901 extends StatefulWidget {
   const Keplar901({super.key});
 
   @override
-  State<Keplar901> createState() => _Proxima601State();
+  State<Keplar901> createState() => _Keplar901State();
 }
 
-class _Proxima601State extends State<Keplar901> {
+class _Keplar901State extends State<Keplar901> {
   String text = 'Click on the Cloud, Sky or Ground to learn more!!';
-  final String _url = 'https://flutter.dev';
+  final String _url =
+      'https://www.nasa.gov/image-article/spin-around-an-exoplanet-most-like-earth/';
   @override
   void initState() {
     super.initState();

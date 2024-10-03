@@ -18,11 +18,8 @@ class Keplar2 extends StatelessWidget {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Image.asset(
-              'assets/keplar.png',
-              scale: 1.5,
-            ),
             TextBox1(
+              extraWidth: 100,
               text:
                   'Once upon a time, in the vast expanses of the cosmos, there was a planet named Kepler-452b,which is one of the most intriguing exoplanets discovered because of its position in the "habitable zone" of a star similar to our Sun. NASA\'s Kepler space telescope discovered this exoplanet in 2015',
             ),

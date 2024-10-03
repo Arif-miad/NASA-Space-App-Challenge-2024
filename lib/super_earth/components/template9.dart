@@ -4,24 +4,26 @@ import 'package:flutter/material.dart';
 import 'package:gif_view/gif_view.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class Template5 extends StatefulWidget {
+class Template9 extends StatefulWidget {
   final String customTitleText;
   final String bgImage;
   final String text;
   final String gif;
+  final Widget nextPage;
 
-  const Template5(
+  const Template9(
       {super.key,
       required this.text,
       required this.gif,
       this.customTitleText = '',
-      required this.bgImage});
+      required this.bgImage,
+      required this.nextPage});
 
   @override
-  State<Template5> createState() => _Template5State();
+  State<Template9> createState() => _Template5State();
 }
 
-class _Template5State extends State<Template5> {
+class _Template5State extends State<Template9> {
   @override
   void initState() {
     // TODO: implement initState
@@ -132,14 +134,35 @@ class _Template5State extends State<Template5> {
                   ],
                 ),
               ),
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 75.0),
-                child: InkWell(
-                  child: Button1(text: 'Back'),
-                  onTap: () {
-                    Navigator.pop(context);
-                  },
-                ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 75.0),
+                    child: InkWell(
+                      child: Button1(text: 'Back'),
+                      onTap: () {
+                        Navigator.pop(context);
+                      },
+                    ),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 75.0),
+                    child: InkWell(
+                      child: Button1(text: 'Next'),
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) {
+                              return widget.nextPage;
+                            },
+                          ),
+                        );
+                      },
+                    ),
+                  ),
+                ],
               ),
             ],
           ),

@@ -12,7 +12,7 @@ class Proxima601 extends StatefulWidget {
 
 class _Proxima601State extends State<Proxima601> {
   String text = 'Click on the Sky, Hills or Ground to learn more!!';
-  final String _url = 'https://flutter.dev';
+  final String _url = 'https://svs.gsfc.nasa.gov/4777/';
   @override
   void initState() {
     super.initState();

@@ -3,7 +3,7 @@ import 'package:exofun/super_earth/components/button1.dart';
 import 'package:exofun/super_earth/components/button2.dart';
 import 'package:exofun/super_earth/components/text_box_1.dart';
 import 'package:exofun/super_earth/components/title_container.dart';
-import 'package:exofun/super_earth/introduction/intro1.dart';
+import 'package:exofun/super_earth/keplar/keplar101.dart';
 import 'package:exofun/super_earth/keplar/keplar11.dart';
 import 'package:exofun/super_earth/keplar/keplar1201.dart';
 import 'package:exofun/super_earth/keplar/keplar901.dart';
@@ -54,7 +54,7 @@ class Keplar8 extends StatelessWidget {
                           Button2(
                             text: 'Method',
                             image: 'assets/method.png',
-                            onClick: Intro1(),
+                            onClick: Keplar101(),
                           ),
                           Button2(
                             text: 'Comparison',
