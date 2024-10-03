@@ -7,15 +7,13 @@ class Keplar102 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Template9(
-        bgImage: 'assets/keplar_bg.png',
-        customTitleText: ' Kepler 452 b',
-        text:
-            'To detect Kepler 452b, astronomers observe the star\'s slight wobble as it orbits a common center of mass with the planet. Using spectroscopy, they detect shifts in the star’s light: blueshift when it moves toward us and redshift when it moves away, revealing Kepler 452b\'s presence.',
-        gif: 'assets/method1.gif',
-        nextPage: Keplar8(),
-      ),
+    return Template9(
+      bgImage: 'assets/keplar_bg.png',
+      customTitleText: ' Kepler 452 b',
+      text:
+          'Transits reveal an exoplanet not because we directly see it from many light-years away, but because the planet passing in front of its star ever so slightly dims its light. This dimming can be seen in light curves – graphs showing light received over a period of time. When the exoplanet passes in front of the star, the light curve will show a dip in brightness.',
+      gif: 'assets/transit_final.gif',
+      nextPage: Keplar8(),
     );
   }
 }

@@ -7,6 +7,7 @@ import 'package:exofun/super_earth/keplar/keplar101.dart';
 import 'package:exofun/super_earth/keplar/keplar11.dart';
 import 'package:exofun/super_earth/keplar/keplar1201.dart';
 import 'package:exofun/super_earth/keplar/keplar901.dart';
+import 'package:exofun/super_earth/map.dart';
 import 'package:flutter/material.dart';
 
 class Keplar8 extends StatelessWidget {
@@ -44,7 +45,7 @@ class Keplar8 extends StatelessWidget {
                       ),
                       Image.asset('assets/keplar.png'),
                       Column(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        mainAxisAlignment: MainAxisAlignment.spaceAround,
                         children: [
                           Button2(
                             text: 'Scenarios',
@@ -111,7 +112,7 @@ class Keplar8 extends StatelessWidget {
                             context,
                             MaterialPageRoute(
                               builder: (context) {
-                                return LevelsPage();
+                                return LevelMap();
                               },
                             ),
                             (Route<dynamic> route) => false,
