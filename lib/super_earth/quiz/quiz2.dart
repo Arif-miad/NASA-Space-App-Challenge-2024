@@ -10,12 +10,12 @@ class Quiz2 extends StatelessWidget {
     return QuizTemplate(
       nextPage: Quiz3(),
       number: 2,
-      question: 'What are exoplanets?',
-      answerA: 'Planets in our Solar System',
-      answerB: 'Planets that orbit stars outside our solar',
+      question: 'Which method was used to detect Proxima Centauri b?',
+      answerA: 'Transit Method',
+      answerB: 'Gravitational Microlensing',
       answerC: 'Moons around other planets',
-      answerD: 'Stars in other galaxies',
-      correctAnswer: 2,
+      answerD: 'Radial Velocity Method',
+      correctAnswer: 4,
     );
   }
 }

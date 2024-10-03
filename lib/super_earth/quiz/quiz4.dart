@@ -1,6 +1,4 @@
-import 'package:exofun/super_earth/components/quiz_button.dart';
 import 'package:exofun/super_earth/components/quiz_template.dart';
-import 'package:exofun/super_earth/introduction/intro1.dart';
 import 'package:exofun/super_earth/quiz/quiz5.dart';
 import 'package:flutter/material.dart';
 
