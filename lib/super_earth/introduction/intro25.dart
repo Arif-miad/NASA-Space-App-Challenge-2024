@@ -6,13 +6,11 @@ class Intro25 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Template6(
-        customTitleText: 'Example',
-        text:
-            'This method was used to detect OGLE-2016-BLG-1195Lb, a Super-Earth located in the Milky Way’s galactic disk.',
-        image: 'assets/image10.png',
-      ),
+    return Template6(
+      customTitleText: 'Example',
+      text:
+          'This method was used to detect OGLE-2016-BLG-1195Lb, a Super-Earth located in the Milky Way’s galactic disk.',
+      image: 'assets/image10.png',
     );
   }
 }

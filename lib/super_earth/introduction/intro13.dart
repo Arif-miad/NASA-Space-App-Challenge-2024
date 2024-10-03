@@ -7,17 +7,15 @@ class Intro13 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Template1(
-        serial: '',
-        title: 'TOI 270',
-        text:
-            'This infographic illustrates key features of the TOI 270 system, located about 73 light-years away in the southern constellation Pictor.',
-        image: 'assets/intro13.png',
-        serialNum: 13,
-        totalPages: 19,
-        nextWidget: Intro14(),
-      ),
+    return Template1(
+      serial: '',
+      title: 'TOI 270',
+      text:
+          'This infographic illustrates key features of the TOI 270 system, located about 73 light-years away in the southern constellation Pictor.',
+      image: 'assets/intro13.png',
+      serialNum: 13,
+      totalPages: 19,
+      nextWidget: Intro14(),
     );
   }
 }

@@ -7,14 +7,12 @@ class Intro24 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Template7(
-        customTitleText: 'Gravitational Microlensing:',
-        text:
-            'This technique is based on Einstein’s theory of general relativity. When a massive object passes in front of a distant background star, it can bend and magnify the light from the background star. ',
-        gif: 'assets/gravitational_microlensing.gif',
-        nextWidget: Intro25(),
-      ),
+    return Template7(
+      customTitleText: 'Gravitational Microlensing:',
+      text:
+          'This technique is based on Einstein’s theory of general relativity. When a massive object passes in front of a distant background star, it can bend and magnify the light from the background star. ',
+      gif: 'assets/gravit.gif',
+      nextWidget: Intro25(),
     );
   }
 }

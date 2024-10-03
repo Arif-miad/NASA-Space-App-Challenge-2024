@@ -7,14 +7,12 @@ class Intro22 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Template7(
-        customTitleText: 'Radial Velocity Method',
-        text:
-            'The radial velocity method finds planets by noticing a small wobble in a star. This wobble happens because a planet\'s gravity pulls on the star. As the star wobbles, its light changes slightly, showing that a planet is there.',
-        gif: 'assets/transit.gif',
-        nextWidget: Intro23(),
-      ),
+    return Template7(
+      customTitleText: 'Radial Velocity Method',
+      text:
+          'The radial velocity method finds planets by noticing a small wobble in a star. This wobble happens because a planet\'s gravity pulls on the star. As the star wobbles, its light changes slightly, showing that a planet is there.',
+      gif: 'assets/rdv.gif',
+      nextWidget: Intro23(),
     );
   }
 }

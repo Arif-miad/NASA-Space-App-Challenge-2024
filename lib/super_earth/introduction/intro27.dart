@@ -101,8 +101,6 @@ class Intro27 extends StatelessWidget {
                   ),
                 ],
               ),
-
-              //textBoxContainer(),
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 75.0),
                 child: Row(
@@ -145,25 +143,25 @@ Widget textBoxContainer(String textBoxText) {
     height: 110,
     width: 200,
     decoration: BoxDecoration(
-      borderRadius: BorderRadius.circular(10), // Border radius
+      borderRadius: BorderRadius.circular(10),
       boxShadow: [
         BoxShadow(
-          color: Colors.black.withOpacity(0.25), // Shadow with opacity
-          offset: Offset(0, -4), // Shadow position
-          blurRadius: 16, // Shadow blur
+          color: Colors.black.withOpacity(0.25),
+          offset: Offset(0, -4),
+          blurRadius: 16,
         ),
       ],
       gradient: LinearGradient(
         begin: Alignment.topLeft,
         end: Alignment.bottomRight,
         colors: [
-          Color(0xFFFFD885), // Gradient color 1 (hex to Color)
-          Color(0x00000000), // Transparent color for gradient
-          Color(0xFFFDFF91), // Gradient color 2 (hex to Color)
-          Color(0xFF091522), // Base background color
+          Color(0xFFFFD885),
+          Color(0x00000000),
+          Color(0xFFFDFF91),
+          Color(0xFF091522),
         ],
-        stops: [-0.0261, 0.4004, 0.6958, 1.0042], // Stops for gradient stops
-      ), // Call to custom gradient function
+        stops: [-0.0261, 0.4004, 0.6958, 1.0042],
+      ),
     ),
     child: Container(
       decoration: BoxDecoration(

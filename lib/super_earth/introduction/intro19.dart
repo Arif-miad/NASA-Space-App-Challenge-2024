@@ -7,16 +7,14 @@ class Intro19 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Template1(
-        serial: '',
-        title: 'There are 5 methods to detect super earths.',
-        text: '',
-        image: 'assets/image8.png',
-        serialNum: 19,
-        totalPages: 19,
-        nextWidget: Intro27(),
-      ),
+    return Template1(
+      serial: '',
+      title: 'There are 5 methods to detect super earths.',
+      text: '',
+      image: 'assets/image8.png',
+      serialNum: 19,
+      totalPages: 19,
+      nextWidget: Intro27(),
     );
   }
 }
