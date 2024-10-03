@@ -1,4 +1,6 @@
+import 'package:exofun/exoplanet/exo1.dart';
 import 'package:exofun/super_earth/introduction/intro1.dart';
+import 'package:exofun/super_earth/map.dart';
 import 'package:flutter/material.dart';
 
 class Level {
@@ -21,7 +23,7 @@ class Level {
 class LevelsPage extends StatelessWidget {
   final List<Level> levels = [
     Level(
-      level: LevelDetailPage(level: 'Exoplanet'),
+      level: Exo1(),
       title: 'Exoplanet',
       subtitle: 'Introduction to exoplanets',
       backgroundColor: Colors.red,
@@ -41,7 +43,7 @@ class LevelsPage extends StatelessWidget {
     ),
     Level(
       title: 'Super Earth',
-      level: Intro1(),
+      level: LevelMap(),
       subtitle:
           'Explore Super-Earths, larger than Earth with unique possibilities',
       backgroundColor: Colors.green,

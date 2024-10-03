@@ -9,6 +9,7 @@ import 'package:exofun/super_earth/introduction/intro1.dart';
 import 'package:exofun/super_earth/introduction/intro19.dart';
 import 'package:exofun/super_earth/introduction/intro27.dart';
 import 'package:exofun/super_earth/keplar/keplar1.dart';
+import 'package:exofun/super_earth/map.dart';
 import 'package:exofun/super_earth/proxima/proxima1.dart';
 import 'package:exofun/super_earth/proxima/proxima6.dart';
 import 'package:exofun/super_earth/proxima/proxima701.dart';
@@ -59,13 +60,11 @@ class MyApp extends StatelessWidget {
         //primarySwatch: Colors.blue,
         useMaterial3: false,
       ),
-      home: Keplar1(),
       //home: Keplar1(),
       //home: Welcome(),
       //home: Intro1(),
-      //home: Proxima1(),
 
-      //home: Proxima1(),
+      home: LevelsPage(),
       //home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
