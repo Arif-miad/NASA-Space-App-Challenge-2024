@@ -3,8 +3,6 @@ import 'package:exofun/exoplanet/exo12.dart';
 import 'package:exofun/exoplanet/exo4.dart';
 import 'package:exofun/exoplanet/exo6.dart';
 import 'package:exofun/exoplanet/exo8.dart';
-import 'package:exofun/levels_page.dart';
-import 'package:exofun/super_earth/components/button2.dart';
 import 'package:exofun/super_earth/components/button4.dart';
 import 'package:exofun/super_earth/components/template2.dart';
 import 'package:flutter/material.dart';

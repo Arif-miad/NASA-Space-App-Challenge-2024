@@ -1,4 +1,3 @@
-import 'package:exofun/exoplanet/exo5.dart';
 import 'package:exofun/exoplanet/exo9.dart';
 import 'package:exofun/super_earth/components/template11.dart';
 import 'package:flutter/material.dart';

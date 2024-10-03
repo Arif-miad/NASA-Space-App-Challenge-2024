@@ -1,7 +1,6 @@
 import 'package:exofun/exoplanet/exo2.dart';
 import 'package:exofun/super_earth/components/template10.dart';
-import 'package:exofun/super_earth/components/template9.dart';
-import 'package:exofun/super_earth/proxima/proxima6.dart';
+
 import 'package:flutter/material.dart';
 
 class Exo1 extends StatelessWidget {

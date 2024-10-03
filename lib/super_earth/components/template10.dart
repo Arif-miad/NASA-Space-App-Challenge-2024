@@ -3,7 +3,6 @@ import 'package:exofun/super_earth/components/text_box_1.dart';
 import 'package:exofun/super_earth/components/title_container.dart';
 import 'package:flutter/material.dart';
 import 'package:gif_view/gif_view.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 class Template10 extends StatefulWidget {
   final String customTitleText;
