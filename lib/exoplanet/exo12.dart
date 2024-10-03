@@ -1,6 +1,5 @@
 import 'package:exofun/levels_page.dart';
 import 'package:exofun/super_earth/components/close_template.dart';
-import 'package:exofun/super_earth/components/template1.dart';
 import 'package:flutter/material.dart';
 
 class Exo12 extends StatelessWidget {
