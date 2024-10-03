@@ -59,7 +59,7 @@ class QuizTemplate extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
               TitleContainer(text: 'Question $number'),
-              TextBox4(text: 'What are Exoplanets?'),
+              TextBox4(text: question),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
