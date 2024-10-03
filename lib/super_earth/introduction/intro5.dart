@@ -7,17 +7,15 @@ class Intro5 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Template1(
-        serial: '02',
-        title: 'A star like our Sun',
-        text:
-            'Kepler-452b was the first Earth-size planet discovered around a near solar twin.',
-        image: 'assets/intro5.png',
-        serialNum: 5,
-        totalPages: 19,
-        nextWidget: Intro6(),
-      ),
+    return Template1(
+      serial: '02',
+      title: 'A star like our Sun',
+      text:
+          'Kepler-452b was the first Earth-size planet discovered around a near solar twin.',
+      image: 'assets/intro5.png',
+      serialNum: 5,
+      totalPages: 19,
+      nextWidget: Intro6(),
     );
   }
 }

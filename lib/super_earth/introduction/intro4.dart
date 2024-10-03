@@ -7,17 +7,15 @@ class Intro4 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Template1(
-        serial: '01',
-        title: 'Super hot Super Earth',
-        text:
-            'There\'s a super-Earth exoplanet with temperatures hot enough to vaporize metal.',
-        image: 'assets/intro4.png',
-        serialNum: 4,
-        totalPages: 19,
-        nextWidget: Intro5(),
-      ),
+    return Template1(
+      serial: '01',
+      title: 'Super hot Super Earth',
+      text:
+          'There\'s a super-Earth exoplanet with temperatures hot enough to vaporize metal.',
+      image: 'assets/intro4.png',
+      serialNum: 4,
+      totalPages: 19,
+      nextWidget: Intro5(),
     );
   }
 }

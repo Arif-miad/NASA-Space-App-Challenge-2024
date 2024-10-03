@@ -7,17 +7,15 @@ class Intro7 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Template1(
-        serial: '04',
-        title: 'Closer to Home',
-        text:
-            'A super-Earth planet could be hiding at the edge of our own solar system.',
-        image: 'assets/intro7.png',
-        serialNum: 7,
-        totalPages: 19,
-        nextWidget: Intro8(),
-      ),
+    return Template1(
+      serial: '04',
+      title: 'Closer to Home',
+      text:
+          'A super-Earth planet could be hiding at the edge of our own solar system.',
+      image: 'assets/intro7.png',
+      serialNum: 7,
+      totalPages: 19,
+      nextWidget: Intro8(),
     );
   }
 }

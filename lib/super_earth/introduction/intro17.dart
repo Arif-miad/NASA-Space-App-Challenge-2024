@@ -1,3 +1,4 @@
+import 'package:exofun/super_earth/components/close_template.dart';
 import 'package:exofun/super_earth/components/template1.dart';
 import 'package:exofun/super_earth/map.dart';
 import 'package:flutter/material.dart';
@@ -8,7 +9,7 @@ class Intro17 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Template1(
+      body: CloseTemplate(
         serial: 'Congratulations',
         title: 'You\'ve just completed a task.',
         text:

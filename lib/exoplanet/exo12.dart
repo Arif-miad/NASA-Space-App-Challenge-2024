@@ -1,4 +1,5 @@
 import 'package:exofun/levels_page.dart';
+import 'package:exofun/super_earth/components/close_template.dart';
 import 'package:exofun/super_earth/components/template1.dart';
 import 'package:flutter/material.dart';
 
@@ -8,7 +9,7 @@ class Exo12 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Template1(
+      body: CloseTemplate(
         customTitleText: 'Exoplanets',
         serial: 'Congratulations',
         title: 'You\'ve just completed your first task.',

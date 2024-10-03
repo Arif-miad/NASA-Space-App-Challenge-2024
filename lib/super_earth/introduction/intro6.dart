@@ -7,17 +7,15 @@ class Intro6 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Template1(
-        serial: '03',
-        title: 'Water World',
-        text:
-            'Kepler-22b is a super-Earth that could be covered in a super ocean.',
-        image: 'assets/intro6.png',
-        serialNum: 6,
-        totalPages: 19,
-        nextWidget: Intro7(),
-      ),
+    return Template1(
+      serial: '03',
+      title: 'Water World',
+      text:
+          'Kepler-22b is a super-Earth that could be covered in a super ocean.',
+      image: 'assets/intro6.png',
+      serialNum: 6,
+      totalPages: 19,
+      nextWidget: Intro7(),
     );
   }
 }

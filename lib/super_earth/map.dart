@@ -4,6 +4,7 @@ import 'package:exofun/super_earth/components/title_container.dart';
 import 'package:exofun/super_earth/introduction/intro1.dart';
 import 'package:exofun/super_earth/keplar/keplar1.dart';
 import 'package:exofun/super_earth/proxima/proxima1.dart';
+import 'package:exofun/super_earth/quiz/quiz1.dart';
 import 'package:flutter/material.dart';
 
 class LevelMap extends StatelessWidget {
@@ -80,7 +81,9 @@ class LevelMap extends StatelessWidget {
                               context,
                               MaterialPageRoute(
                                 builder: (context) {
-                                  return Intro1();
+                                  return LevelDetailPage(
+                                    level: 'Game',
+                                  );
                                 },
                               ),
                             );
@@ -110,18 +113,16 @@ class LevelMap extends StatelessWidget {
                           },
                         ),
                         InkWell(
-                          child: Container(
-                            child: Image.asset(
-                              'assets/quiz.png',
-                              fit: BoxFit.cover,
-                            ),
+                          child: Image.asset(
+                            'assets/quiz.png',
+                            fit: BoxFit.cover,
                           ),
                           onTap: () {
                             Navigator.push(
                               context,
                               MaterialPageRoute(
                                 builder: (context) {
-                                  return Intro1();
+                                  return Quiz1();
                                 },
                               ),
                             );
@@ -135,13 +136,14 @@ class LevelMap extends StatelessWidget {
               InkWell(
                 child: Button1(text: 'Back'),
                 onTap: () {
-                  Navigator.push(
+                  Navigator.pushAndRemoveUntil(
                     context,
                     MaterialPageRoute(
                       builder: (context) {
                         return LevelsPage();
                       },
                     ),
+                    (Route<dynamic> route) => false,
                   );
                 },
               ),

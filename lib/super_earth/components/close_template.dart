@@ -3,7 +3,7 @@ import 'package:exofun/super_earth/components/title_container.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class Template1 extends StatelessWidget {
+class CloseTemplate extends StatelessWidget {
   final int serialNum;
   final int totalPages;
   final String serial;
@@ -13,7 +13,7 @@ class Template1 extends StatelessWidget {
   final String image;
   final Widget nextWidget;
 
-  const Template1(
+  const CloseTemplate(
       {super.key,
       required this.serial,
       required this.title,
@@ -167,11 +167,15 @@ class Template1 extends StatelessWidget {
                     InkWell(
                       child: Button1(text: 'Next'),
                       onTap: () {
-                        Navigator.push(context, MaterialPageRoute(
-                          builder: (context) {
-                            return nextWidget;
-                          },
-                        ));
+                        Navigator.pushAndRemoveUntil(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) {
+                              return nextWidget;
+                            },
+                          ),
+                          (Route<dynamic> route) => false,
+                        );
                       },
                     ),
                   ],

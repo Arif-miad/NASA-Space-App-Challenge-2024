@@ -107,11 +107,15 @@ class Keplar8 extends StatelessWidget {
                       child: InkWell(
                         child: Button1(text: 'Finish'),
                         onTap: () {
-                          Navigator.push(context, MaterialPageRoute(
-                            builder: (context) {
-                              return LevelsPage();
-                            },
-                          ));
+                          Navigator.pushAndRemoveUntil(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) {
+                                return LevelsPage();
+                              },
+                            ),
+                            (Route<dynamic> route) => false,
+                          );
                         },
                       ),
                     ),

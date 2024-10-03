@@ -62,7 +62,7 @@ class LevelsPage extends StatelessWidget {
     ),
     Level(
       title: 'Neptune Like',
-      level: LevelDetailPage(level: 'Neptune'),
+      level: LevelDetailPage(level: 'Neptune Like'),
       subtitle: 'Discover icy Neptune-like worlds in this cosmic adventure',
       backgroundColor: Colors.blue,
       imagePath: 'assets/neptuneLike.png',
@@ -81,7 +81,7 @@ class LevelsPage extends StatelessWidget {
     ),
     Level(
       title: 'Terrestrial',
-      level: LevelDetailPage(level: 'Exoplanet'),
+      level: LevelDetailPage(level: 'Terrestrial'),
       subtitle: 'Discover rocky, Earth-like planets with solid surfaces',
       backgroundColor: Colors.orange,
       imagePath: 'assets/terrestrial.png',
@@ -100,7 +100,7 @@ class LevelsPage extends StatelessWidget {
     ),
     Level(
       title: 'Gas Giant',
-      level: LevelDetailPage(level: 'Exoplanet'),
+      level: LevelDetailPage(level: 'Gas Giant'),
       subtitle:
           'Explore the vast, swirling gas giants beyond our solar system.',
       backgroundColor: Colors.purple,
@@ -247,7 +247,7 @@ class LevelDetailPage extends StatelessWidget {
       ),
       body: Center(
         child: Text(
-          'Welcome to $level',
+          'This section is Coming Soon!',
           style: const TextStyle(fontSize: 24),
         ),
       ),
