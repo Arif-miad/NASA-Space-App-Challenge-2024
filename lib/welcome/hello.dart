@@ -104,11 +104,12 @@ class Hello extends StatelessWidget {
                             ),
                           ),
                           onPressed: () {
-                            Navigator.push(
+                            Navigator.pushAndRemoveUntil(
                               context,
                               MaterialPageRoute(
                                 builder: (context) => LevelsPage(),
                               ),
+                              (Route<dynamic> route) => false,
                             );
                           },
                           child: Text(
