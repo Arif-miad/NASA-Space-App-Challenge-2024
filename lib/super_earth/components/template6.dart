@@ -56,24 +56,18 @@ class Template6 extends StatelessWidget {
                             colors: [
                               Color(0x00000000),
                               Color(0xFF24CACA),
-                              // Transparent color
-                              // #24CACA color
                             ],
-                            stops: [
-                              0.0214,
-                              0.958
-                            ], // Matching the gradient stops in your CSS
+                            stops: [0.0214, 0.958],
                           ),
-                          color: Color(0xFF091522), // Background color #091522
+                          color: Color(0xFF091522),
                           boxShadow: [
                             BoxShadow(
                               color: Colors.black,
-                              offset: Offset(0, -4), // Shadow offset
-                              blurRadius: 16, // Shadow blur radius
+                              offset: Offset(0, -4),
+                              blurRadius: 16,
                             ),
                           ],
-                          borderRadius: BorderRadius.circular(
-                              15), // Circular border radius
+                          borderRadius: BorderRadius.circular(15),
                         ),
                         child: Center(
                           child: Padding(
@@ -87,12 +81,9 @@ class Template6 extends StatelessWidget {
                                 text,
                                 style: GoogleFonts.istokWeb(
                                     fontSize: 18, color: Colors.white),
-                                maxLines:
-                                    8, // You can specify the number of lines
-                                overflow: TextOverflow
-                                    .ellipsis, // Handle overflow with ellipsis
-                                softWrap:
-                                    true, // Allow soft wrapping (break lines naturally)
+                                maxLines: 8,
+                                overflow: TextOverflow.ellipsis,
+                                softWrap: true,
                               ),
                             ),
                           ),

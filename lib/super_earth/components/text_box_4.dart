@@ -33,25 +33,20 @@ class TextBox4 extends StatelessWidget {
         color: Colors.amber,
       ),
       child: Center(
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.start,
-          children: [
-            Padding(
-              padding: const EdgeInsets.only(left: 20.0),
-              child: Text(
-                text,
-                style: GoogleFonts.istokWeb(
-                  fontSize: 20,
-                  fontWeight: FontWeight.bold,
-                  color: Colors.white,
-                ),
-                //textAlign: TextAlign.center,
-                maxLines: 5,
-                overflow: TextOverflow.ellipsis,
-                softWrap: true,
-              ),
+        child: Padding(
+          padding: const EdgeInsets.only(left: 20.0),
+          child: Text(
+            text,
+            style: GoogleFonts.istokWeb(
+              fontSize: 20,
+              fontWeight: FontWeight.bold,
+              color: Colors.white,
             ),
-          ],
+            //textAlign: TextAlign.center,
+            maxLines: 5,
+            overflow: TextOverflow.ellipsis,
+            softWrap: true,
+          ),
         ),
       ),
     );

@@ -70,13 +70,8 @@ class _Template5State extends State<Template7> {
                             colors: [
                               Color(0x00000000),
                               Color(0xFF24CACA),
-                              // Transparent color
-                              // #24CACA color
                             ],
-                            stops: [
-                              0.0214,
-                              0.958
-                            ], // Matching the gradient stops in your CSS
+                            stops: [0.0214, 0.958],
                           ),
                           color: Color(0xFF091522),
                           boxShadow: [

@@ -26,7 +26,6 @@ class Template9 extends StatefulWidget {
 class _Template5State extends State<Template9> {
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
   }
 
@@ -72,24 +71,18 @@ class _Template5State extends State<Template9> {
                             colors: [
                               Color(0x00000000),
                               Color(0xFF24CACA),
-                              // Transparent color
-                              // #24CACA color
                             ],
-                            stops: [
-                              0.0214,
-                              0.958
-                            ], // Matching the gradient stops in your CSS
+                            stops: [0.0214, 0.958],
                           ),
-                          color: Color(0xFF091522), // Background color #091522
+                          color: Color(0xFF091522),
                           boxShadow: [
                             BoxShadow(
                               color: Colors.black,
-                              offset: Offset(0, -4), // Shadow offset
-                              blurRadius: 16, // Shadow blur radius
+                              offset: Offset(0, -4),
+                              blurRadius: 16,
                             ),
                           ],
-                          borderRadius: BorderRadius.circular(
-                              15), // Circular border radius
+                          borderRadius: BorderRadius.circular(15),
                         ),
                         child: Center(
                           child: Padding(
@@ -102,13 +95,10 @@ class _Template5State extends State<Template9> {
                               child: Text(
                                 widget.text,
                                 style: GoogleFonts.istokWeb(
-                                    fontSize: 18, color: Colors.white),
-                                maxLines:
-                                    8, // You can specify the number of lines
-                                overflow: TextOverflow
-                                    .ellipsis, // Handle overflow with ellipsis
-                                softWrap:
-                                    true, // Allow soft wrapping (break lines naturally)
+                                    fontSize: 17, color: Colors.white),
+                                maxLines: 8,
+                                overflow: TextOverflow.ellipsis,
+                                softWrap: true,
                               ),
                             ),
                           ),
@@ -124,10 +114,6 @@ class _Template5State extends State<Template9> {
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
                         ),
-                        // child: Image.asset(
-                        //   image,
-                        //   fit: BoxFit.contain,
-                        // ),
                         child: GifView.asset(widget.gif),
                       ),
                     ),
@@ -151,13 +137,14 @@ class _Template5State extends State<Template9> {
                     child: InkWell(
                       child: Button1(text: 'Next'),
                       onTap: () {
-                        Navigator.push(
+                        Navigator.pushAndRemoveUntil(
                           context,
                           MaterialPageRoute(
                             builder: (context) {
                               return widget.nextPage;
                             },
                           ),
+                          (Route<dynamic> route) => false,
                         );
                       },
                     ),
