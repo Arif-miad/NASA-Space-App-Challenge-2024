@@ -1,9 +1,11 @@
 import 'package:exofun/super_earth/components/button1.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:url_launcher/url_launcher_string.dart';
 
-class Template11 extends StatelessWidget {
+class Template11 extends StatefulWidget {
   final String text;
+  final String nasaUrl;
   final String buttonText;
   final Widget nextPage;
 
@@ -12,7 +14,23 @@ class Template11 extends StatelessWidget {
     required this.text,
     required this.buttonText,
     required this.nextPage,
+    required this.nasaUrl,
   });
+
+  @override
+  State<Template11> createState() => _Template11State();
+}
+
+class _Template11State extends State<Template11> {
+  Future<void> _launchURL(String url) async {
+    await launchUrlString(url);
+  }
+
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -67,7 +85,7 @@ class Template11 extends StatelessWidget {
                   Padding(
                     padding: const EdgeInsets.all(22.0),
                     child: Text(
-                      text,
+                      widget.text,
                       style: GoogleFonts.istokWeb(
                         fontSize: 20,
                         fontWeight: FontWeight.bold,
@@ -82,20 +100,25 @@ class Template11 extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
                       InkWell(
-                        child: Button1(text: buttonText),
+                        child: Button1(text: widget.buttonText),
                         onTap: () {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
                               builder: (context) {
-                                return nextPage;
+                                return widget.nextPage;
                               },
                             ),
                           );
                         },
                       ),
-                      Button1(
-                        text: 'NASA Data',
+                      InkWell(
+                        child: Button1(
+                          text: 'NASA Data',
+                        ),
+                        onTap: () {
+                          _launchURL(widget.nasaUrl);
+                        },
                       ),
                     ],
                   ),
