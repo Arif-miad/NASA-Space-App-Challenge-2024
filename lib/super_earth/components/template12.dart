@@ -37,7 +37,7 @@ class Template12 extends StatelessWidget {
             children: [
               TitleContainer(text: titleText),
               Container(
-                height: 300,
+                height: 250,
                 width: 750,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(15),
@@ -49,7 +49,7 @@ class Template12 extends StatelessWidget {
                     Opacity(
                       opacity: 0.8,
                       child: Container(
-                        height: 300,
+                        height: 250,
                         width: 350,
                         decoration: BoxDecoration(
                           gradient: LinearGradient(
@@ -96,7 +96,7 @@ class Template12 extends StatelessWidget {
                                 Text(
                                   text,
                                   style: GoogleFonts.istokWeb(
-                                      fontSize: 18, color: Colors.white),
+                                      fontSize: 16, color: Colors.white),
                                   maxLines: 9,
                                   overflow: TextOverflow.ellipsis,
                                   softWrap: true,
