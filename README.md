@@ -17,8 +17,8 @@
    3. Android Studio
 
 ## Getting Started
-## App Prototype Demo(Figma)
-## [Live Demo](https://t.ly/21vcY)
+## App Prototype Demo(Figma): [Live Demo](https://t.ly/21vcY)
+
 ### Introduction:
 The ExoFun app is designed to help people learn about planets outside our solar system. Users can learn about exoplanets through storytelling and interactive features.
 ### Startup:
