@@ -12,6 +12,7 @@ class Exo8 extends StatelessWidget {
       text:
           'Jupiter are gas giant exoplanets share a lot of similarities. These planets are massive and made mostly of hydrogen and helium amd also have thick atmospheres with intense storms.',
       buttonText: 'Gas Giants',
+      nasaUrl: 'https://science.nasa.gov/exoplanets/gas-giant/',
     );
   }
 }

@@ -12,6 +12,7 @@ class Exo4 extends StatelessWidget {
       text:
           'Exoplanets that resemble Earth are often referred to as "Earth-like" or "potentially habitable terrestrial planets." These planets orbit in their star\'s habitable zone, where conditions might allow liquid water to exist.',
       buttonText: 'Super Earths',
+      nasaUrl: 'https://science.nasa.gov/exoplanets/super-earth/',
     );
   }
 }

@@ -12,6 +12,7 @@ class Exo6 extends StatelessWidget {
       text:
           'Mercury, being the smallest and closest planet to the Sun in our solar system, shares certain characteristics with rocky exoplanets, often referred to as "Terristrial"',
       buttonText: 'Terristrial',
+      nasaUrl: 'https://science.nasa.gov/exoplanets/terrestrial/',
     );
   }
 }

@@ -12,6 +12,7 @@ class Exo10 extends StatelessWidget {
       text:
           'Neptune-like exoplanets are gas giants similar in size and composition to Neptune, often rich in hydrogen, helium, and icy materials. These planets typically have thick atmospheres and can exist in a variety of environments.',
       buttonText: 'Neptune likes',
+      nasaUrl: 'https://science.nasa.gov/exoplanets/neptune-like/',
     );
   }
 }
