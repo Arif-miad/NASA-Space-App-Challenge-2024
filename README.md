@@ -26,15 +26,15 @@ The app is divided in 5 primary sections. Along with one Introductory section, w
 A brief about exoplanets and their types, the history and some NASA data to get the basic idea.
 ### Super Earth
 #### 5 Levels about Super Earths
-##### Introduction
+#### Introduction
 What is Super Earth and many topics and facts including the methods to detect these planets.
-##### Proxima Centauri B
+#### Proxima Centauri B
 Info about a super earth exoplanet named Proxima Centauri B with stories, comparisons to Earth and many other facts.
-##### Keplar 452b
+#### Keplar 452b
 Info about another super earth exoplanet named Keplar 452b with content similar to the previous one.
-##### Make A Planet Game 
+#### Make A Planet Game 
 A game where users have to build a planet using many variables with the goal being creating a Super Earth. This will test their knowledge about Super Earths from the previous sections.
-##### Quiz
+#### Quiz
 Finally a quiz on all 4 levels of the Super Earth section.
 
 ### Terrestrials, Gas Giants and Neptune 
