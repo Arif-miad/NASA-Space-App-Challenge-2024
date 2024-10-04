@@ -48,8 +48,8 @@ These sections are not included as of now. We plan on developing them in the fut
 
 # Accessibilty
 ## Outside the app, we have created a book with similar contents to make it accessible to those from underserved communities or with limited access to resources. So they can learn about exoplanets even without access to mobile phones and internet.
-
-# 
+[Book PDF Link](https://drive.google.com/file/d/1skCR5YM8t6xW1kRmusJToBiWbsOFR3jJ/view)
+#
 Please leave feedbacks. As we will continue to develop the app and add more sections, feel free to provide any suggestions.
 
 
